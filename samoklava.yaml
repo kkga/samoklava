@@ -81,12 +81,6 @@ points:
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P15
-        far:
-          spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
-          key:
-            column_net: P14
       rows:
         thumb:
           row_net: P7
@@ -267,7 +261,7 @@ pcbs:
             - matrix_ring_home
           shift: [-0.25 kx, 0.5 ky]
         params:
-          text: "JLCJLCJLCJLC"
+          text: 'JLCJLCJLCJLC'
           justify: left
   bottom_plate:
     include_keys: false
@@ -314,7 +308,7 @@ pcbs:
           back: true
           width: 1.5
           height: 1.5
-          text: "B+"
+          text: 'B+'
         nets:
           net: Braw
       pad_minus:
@@ -329,7 +323,7 @@ pcbs:
           back: true
           width: 1.5
           height: 1.5
-          text: "B-"
+          text: 'B-'
         nets:
           net: Bminus
       trrs_l:
@@ -344,7 +338,7 @@ pcbs:
           symmetric: false
         # The naming of the nets on this footprint is different from the Corne schematics.
         nets:
-          A: ""
+          A: ''
           B: VCC
           C: GND
           D: P0
@@ -360,7 +354,7 @@ pcbs:
           symmetric: false
         # The naming of the nets on this footprint is different from the Corne schematics.
         nets:
-          A: ""
+          A: ''
           B: VCC
           C: GND
           D: P0
@@ -443,4 +437,3 @@ pcbs:
           layer: B.SilkS
           text: "samoklava v0.1\\nby soundmonster"
           justify: right mirror
-
