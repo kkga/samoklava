@@ -81,6 +81,12 @@ points:
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P15
+        far:
+          spread: kx
+          rotate: -45
+          origin: [-0.5 kx, -0.5 ky]
+          key:
+            column_net: P14
       rows:
         thumb:
           row_net: P7
